@@ -10,12 +10,13 @@
 
     <Button
         android:id="@+id/fire"
-        android:layout_width="137dp"
-        android:layout_height="42dp"
+        android:layout_width="206dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/background_light"
-        android:text="FIRE"
+        android:text="@string/tv_fire"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,12 +25,13 @@
 
     <Button
         android:id="@+id/police"
-        android:layout_width="137dp"
-        android:layout_height="42dp"
+        android:layout_width="206dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/background_light"
-        android:text="Police"
+        android:text="@string/tv_police"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,16 +40,18 @@
 
     <Button
         android:id="@+id/ambulance"
-        android:layout_width="137dp"
-        android:layout_height="42dp"
+        android:layout_width="206dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/background_light"
-        android:text="AMBULANCE"
+        android:text="@string/tv_ambu"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.634" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

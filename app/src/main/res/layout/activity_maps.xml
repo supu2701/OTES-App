@@ -20,16 +20,16 @@
 
     <Button
         android:id="@+id/B_hopistals"
-        android:layout_width="137dp"
-        android:layout_height="42dp"
+        android:layout_width="325dp"
+        android:layout_height="30dp"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="131dp"
+        android:layout_marginStart="43dp"
 
         android:layout_marginTop="4dp"
         android:background="@android:color/background_light"
         android:onClick="onClick"
-        android:text="Hospitals"
+        android:text="@string/tv_hospitals"
         android:textSize="18sp" />
 
 </RelativeLayout>

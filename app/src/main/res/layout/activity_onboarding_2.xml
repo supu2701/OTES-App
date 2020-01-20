@@ -131,8 +131,8 @@
         android:text="@string/tv_next"
         app:layout_constraintBottom_toTopOf="@+id/guideline45"
         app:layout_constraintEnd_toStartOf="@+id/guideline49"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline41"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.95" />
 </androidx.constraintlayout.widget.ConstraintLayout>

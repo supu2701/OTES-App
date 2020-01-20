@@ -120,10 +120,10 @@
         android:text="@string/tv_next"
         app:layout_constraintBottom_toTopOf="@+id/guideline37"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.850"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.950" />
 
     <ImageView
         android:id="@+id/imageView10"

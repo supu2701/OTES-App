@@ -54,7 +54,7 @@ public class socialPlatform extends AppCompatActivity {
 
                             Intent sendIntent = new Intent("android.intent.action.MAIN");
                             sendIntent.putExtra("jid", toNumber + "@s.whatsapp.net");
-                            sendIntent.putExtra(Intent.EXTRA_TEXT,"https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude+"\n\n"+"HELP ME ASAP");
+                            sendIntent.putExtra(Intent.EXTRA_TEXT,"https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude+"\n\n"+"PLEASE HELP ME. I AM STUCK IN EMERGENCY!! I HAVE SEND YOU MY GPS LINK. "+"\n\n"+"कृपया मेरी सहायता करे। मैं आपातकालीन स्थिति में हूँ !! मैंने आपको मेरा जीपीएस लिंक भेजा है।");
                             sendIntent.setAction(Intent.ACTION_SEND);
                             sendIntent.setPackage("com.whatsapp");
                             sendIntent.setType("text/plain");
@@ -68,7 +68,7 @@ public class socialPlatform extends AppCompatActivity {
         instagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String text ="HELP!! HELP!!, I am struck in a Emergency";
+                String text ="HELP!! HELP!!, I am struck in a Emergency.  कृपया मेरी सहायता करे। मैं आपातकालीन स्थिति में हूँ !! मैंने आपको मेरा जीपीएस लिंक भेजा है।";
                 Intent shareIntent = new Intent("android.intent.action.MAIN");
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_TEXT, "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude+"\n"+text);
@@ -97,7 +97,7 @@ public class socialPlatform extends AppCompatActivity {
                 String text ="HELP!! HELP!!, I am struck in a Emergency";
                 Intent shareIntent = new Intent("android.intent.action.MAIN");
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude+"\n"+text);
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "https://www.google.com/maps/search/?api=1&query="+latitude+","+longitude+"\n"+"PLEASE HELP ME. I AM STUCK IN EMERGENCY!! I HAVE SEND YOU MY GPS LINK. "+"\n\n"+"कृपया मेरी सहायता करे। मैं आपातकालीन स्थिति में हूँ !!");
                 shareIntent.setAction(Intent.ACTION_SEND);
                 PackageManager pm = v.getContext().getPackageManager();
                 List<ResolveInfo> activityList = pm.queryIntentActivities(shareIntent, 0);

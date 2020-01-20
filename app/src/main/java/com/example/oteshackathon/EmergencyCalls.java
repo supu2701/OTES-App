@@ -1,12 +1,5 @@
 package com.example.oteshackathon;
 
-import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -17,6 +10,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 public class EmergencyCalls extends AppCompatActivity {
 
@@ -62,7 +58,7 @@ public class EmergencyCalls extends AppCompatActivity {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, 1);
                 return false;
             }
-        } else { //permission is automatically granted on sdk<23 upon installation
+        } else {
             Log.v("TAG", "Permission is granted");
             return true;
         }
@@ -73,13 +69,7 @@ public class EmergencyCalls extends AppCompatActivity {
         callIntent.setData(Uri.parse("tel:" + phnum));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (checkSelfPermission(Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    Activity#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for Activity#requestPermissions for more details.
+
                 return;
             }
         }
@@ -91,13 +81,7 @@ public class EmergencyCalls extends AppCompatActivity {
         callIntent.setData(Uri.parse("tel:" + phnum));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (checkSelfPermission(Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    Activity#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for Activity#requestPermissions for more details.
+
                 return;
             }
         }
@@ -109,13 +93,7 @@ public class EmergencyCalls extends AppCompatActivity {
         callIntent.setData(Uri.parse("tel:" + phnum));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (checkSelfPermission(Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    Activity#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for Activity#requestPermissions for more details.
+                
                 return;
             }
         }
