@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/B_hopistals"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        tools:context="com.rishi.MapsActivity" />
+
+    <Button
+        android:id="@+id/B_hopistals"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="131dp"
+
+        android:layout_marginTop="4dp"
+        android:background="@android:color/background_light"
+        android:onClick="onClick"
+        android:text="Hospitals"
+        android:textSize="18sp" />
+
+</RelativeLayout>
