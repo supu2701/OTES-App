@@ -28,6 +28,7 @@ This app contains everything from sending immediate messages to family and frien
 ### ⭕⭕Begineer's Guide to open source and github:
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 GitHub is a United States-based global company that provides hosting for software development version control using Git.
+
 ✔https://guides.github.com/introduction/git-handbook/
 
 ✔https://lab.github.com/
@@ -35,8 +36,8 @@ GitHub is a United States-based global company that provides hosting for softwar
 ✔[Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
 
 ### ⭕⭕Tech stack guides:
-Basics of Java
-Basics of development using Android Studio [Android Studio Documentation](https://developer.android.com/docs)
+###### ✔Basics of Java
+###### ✔Basics of development using Android Studio [Android Studio Documentation](https://developer.android.com/docs)
 
 ## 💥⭕How to contribute?
 ### 1. 👇🏻Star and Fork this Repository
