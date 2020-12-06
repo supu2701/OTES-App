@@ -78,7 +78,7 @@ GitHub is a United States-based global company that provides hosting for softwar
 
 ### 5. 👇🏻Create Pull Request
 
-###### At this point, you are ready to make a pull request to the original repository. Make PRs' to the develop branch only!
+###### At this point, you are ready to make a pull request to the original repository.
 
 ###### Now navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
 
