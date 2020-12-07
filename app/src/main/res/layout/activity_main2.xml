@@ -192,9 +192,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
-        android:background="@android:color/background_light"
+        android:background="@drawable/rounded_button"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_emergency"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
 </RelativeLayout>
