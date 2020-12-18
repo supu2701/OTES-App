@@ -97,4 +97,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="tracking_enabled_notif">Tracking is currently enabled.Tap to Cancel</string>
     <string name="firebase_path">location</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
 </resources>
