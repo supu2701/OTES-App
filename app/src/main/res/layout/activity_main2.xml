@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/hello"
@@ -8,196 +9,192 @@
     android:background="@android:color/holo_red_dark"
     tools:context=".MainActivity2">
 
-    <Button
-        android:id="@+id/alert"
-        android:layout_width="193dp"
-        android:layout_height="35dp"
-        android:background="@android:color/background_light"
-        android:text="@string/tv_sendalert"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline65"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent=".0" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline66"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent=".25" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline67"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent=".50
-" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline68"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="1" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline69"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent=".75" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline70"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="0dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline71"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="205dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline72"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="412dp" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
-        app:layout_constraintStart_toStartOf="@+id/guideline70"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339"
-        app:srcCompat="@drawable/mask_group_1alertmsg" />
-
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="145dp"
         android:layout_height="145dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline70"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073"
-        app:srcCompat="@drawable/logoapp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/logoapp"/>
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toStartOf="@+id/guideline72"
-        app:layout_constraintHorizontal_bias="0.769"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339"
-        app:srcCompat="@drawable/group_44" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView13"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
 
-    <Button
-        android:id="@+id/nearby"
-        android:layout_width="193dp"
-        android:layout_height="35dp"
-        android:background="@android:color/background_light"
-        android:text="@string/tv_finding"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toStartOf="@+id/guideline72"
-        app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline65"
-        app:layout_constraintVertical_bias="0.479" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667"
-        app:srcCompat="@drawable/mask_group_6" />
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/mask_group_1alertmsg" />
 
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toStartOf="@+id/guideline72"
-        app:layout_constraintHorizontal_bias="0.81"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667"
-        app:srcCompat="@drawable/mask_group_9" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/firstaid"
-        android:layout_width="193dp"
-        android:layout_height="35dp"
-        android:background="@android:color/background_light"
-        android:text="@string/tv_firstaidAAAA"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
-        app:layout_constraintStart_toStartOf="@+id/guideline70"
-        app:layout_constraintTop_toTopOf="@+id/guideline65"
-        app:layout_constraintVertical_bias="0.787" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
 
-    <Button
-        android:id="@+id/precautionary"
-        android:layout_width="193dp"
-        android:layout_height="35dp"
-        android:background="@android:color/background_light"
-        android:text="@string/tv_precautionary"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toStartOf="@+id/guideline72"
-        app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/group_44" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/alert"
+                android:layout_width="193dp"
+                android:layout_height="35dp"
+                android:background="@android:color/background_light"
+                android:text="@string/tv_sendalert"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/nearby"
+                android:layout_width="193dp"
+                android:layout_height="35dp"
+                android:background="@android:color/background_light"
+                android:text="@string/tv_finding"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout2"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/mask_group_6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/mask_group_9" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout3"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/firstaid"
+                android:layout_width="193dp"
+                android:layout_height="35dp"
+                android:background="@android:color/background_light"
+                android:text="@string/tv_firstaidAAAA"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/precautionary"
+                android:layout_width="193dp"
+                android:layout_height="35dp"
+                android:background="@android:color/background_light"
+                android:text="@string/tv_precautionary"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/emergency"
         android:layout_width="190dp"
         android:layout_height="57dp"
-        android:background="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_button"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_emergency"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline68"
-        app:layout_constraintEnd_toStartOf="@+id/guideline72"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
+        android:textSize="20sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
