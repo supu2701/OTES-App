@@ -125,6 +125,9 @@
     <string name="b2">2. If the person is known to be allergic to bee stings, use an EpiPen to prevent anaphylaxis or call 911 if none is available.</string>
     <string name="b3">"3. Use a cold pack to reduce swelling at the site, but take care not to cause frostbite. "</string>
     <string name="b4">"4. Use an antihistamine like Benadryl (diphenhydramine) to reduce swelling and itching. "</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
 
 
 </resources>
