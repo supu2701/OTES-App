@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/widget_activity_emergency_service"
+    android:initialLayout="@layout/widget_activity_emergency_service"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:previewImage="@drawable/image_placeholder"
+    android:updatePeriodMillis="3600000"
+    android:widgetCategory="home_screen">
+
+</appwidget-provider>
