@@ -127,6 +127,10 @@
     <string name="b4">"4. Use an antihistamine like Benadryl (diphenhydramine) to reduce swelling and itching. "</string>
     <string name="appwidget_text">EMERGENCY</string>
     <string name="add_widget">Add widget</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
 
 
 </resources>

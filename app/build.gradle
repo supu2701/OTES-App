@@ -38,4 +38,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:20.1.0'
     implementation 'com.google.firebase:firebase-inappmessaging-display:19.0.3'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+
+    
+
 }
