@@ -14,8 +14,7 @@
         android:background="@color/design_default_color_primary"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_earthquake"
-        android:textAlignment="center
-"
+        android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
@@ -80,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintVertical_bias="0.62" />
 
     <TextView
         android:id="@+id/textView30"
@@ -94,7 +93,7 @@
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561" />
+        app:layout_constraintVertical_bias="0.78" />
 
     <TextView
         android:id="@+id/textView29"
@@ -108,7 +107,7 @@
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="@+id/guideline75"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.71000004" />
 
     <TextView
         android:id="@+id/textView31"
@@ -122,7 +121,7 @@
         app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="@+id/guideline75"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.64" />
+        app:layout_constraintVertical_bias="0.84000003" />
 
     <TextView
         android:id="@+id/textView39"
@@ -136,17 +135,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.188" />
 
-    <Button
-        android:id="@+id/vdearth"
-        android:layout_width="344dp"
-        android:layout_height="44dp"
-        android:background="@android:color/background_light"
-        android:text="@string/tv_videarthquake"
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/guideline75"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.29000002" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
