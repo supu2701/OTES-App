@@ -22,6 +22,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MapActivityPolice"></activity>
+        <activity android:name=".NearbyServices" />
+
         <receiver android:name=".EmergencyService">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -32,8 +35,9 @@
                 android:resource="@xml/emergency_service_info" />
         </receiver>
 
-        <activity android:name=".EmergencyCalls"
-            android:launchMode="singleTop"/>
+        <activity
+            android:name=".EmergencyCalls"
+            android:launchMode="singleTop" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
