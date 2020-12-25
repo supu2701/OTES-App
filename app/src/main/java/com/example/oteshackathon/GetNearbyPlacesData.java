@@ -35,7 +35,7 @@ public class GetNearbyPlacesData extends AsyncTask<Object,String,String> {
 
     @Override
     protected void onPostExecute(String s) {
-        List<HashMap<String ,String >> nearbyPlaceList=null;
+        List<HashMap<String ,String >> nearbyPlaceList = null;
         DataParser parser=new DataParser();
         nearbyPlaceList=parser.parse(s);
         showNearbyPlaces(nearbyPlaceList);
@@ -55,8 +55,7 @@ public class GetNearbyPlacesData extends AsyncTask<Object,String,String> {
             markerOptions.position(latLng);
             markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
             mMap.addMarker(markerOptions);
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-            mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,14));
         }
 
     }
