@@ -238,8 +238,8 @@ public class MapActivityPolice extends FragmentActivity implements OnMapReadyCal
         googlePlaceUrl.append("&radius="+PROXIMITY_RADIUS);
         googlePlaceUrl.append("&type="+nearbyPlace);
         googlePlaceUrl.append("&sensor=true");
-        googlePlaceUrl.append("&key="+"AIzaSyDBhx2BuAuuzrFDTfUU8AcR_pmm1CDYwY4");
-        //googlePlaceUrl.append("&key="+"AIzaSyBCm2qtl2Ku22rZPRCo8q41dZadS43bv_c");
+        //googlePlaceUrl.append("&key="+"AIzaSyDBhx2BuAuuzrFDTfUU8AcR_pmm1CDYwY4");
+        googlePlaceUrl.append("&key="+"AIzaSyBCm2qtl2Ku22rZPRCo8q41dZadS43bv_c");
 
         Log.d("PoliceMapsActivity", "url = "+googlePlaceUrl.toString());
 
