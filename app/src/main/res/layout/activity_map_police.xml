@@ -9,17 +9,17 @@
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/map"
+        android:id="@+id/map_police"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/B_hopistals"
+        android:layout_below="@+id/map_police_button"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        tools:context="com.rishi.MapsActivity" />
+        tools:context="com.rishi.MapActivityPolice" />
 
     <Button
-        android:id="@+id/B_hopistals"
+        android:id="@+id/map_police_button"
         android:layout_width="325dp"
         android:layout_height="30dp"
         android:layout_alignParentStart="true"
@@ -28,7 +28,7 @@
         android:layout_marginTop="4dp"
         android:background="@android:color/background_light"
         android:onClick="onClick"
-        android:text="@string/tv_hospitals"
+        android:text="@string/nearby_police_station"
         android:textSize="18sp" />
 
 </RelativeLayout>
