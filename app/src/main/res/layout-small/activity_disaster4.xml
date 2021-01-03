@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_landslide"
-    tools:context=".disaster4">
+    tools:context=".disaster4"
+    android:background="@drawable/bg_landslide">
 
     <TextView
         android:id="@+id/textView46"
@@ -16,71 +16,71 @@
         android:text="@string/tv_landslide"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
-        android:textSize="20sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView47"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv_pre1"
-        android:textSize="18sp"
+        android:textSize="7sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <TextView
         android:id="@+id/textView49"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="1.5dp"
         android:text="@string/tv_pointland_1"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
+        android:textSize="7.5sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.618" />
+        app:layout_constraintVertical_bias="0.49" />
 
     <TextView
         android:id="@+id/textView50"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="1.5dp"
         android:text="@string/LSp2"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
-        android:padding="10dp"
+        android:textSize="7.5sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/textView49"
-        app:layout_constraintVertical_bias="0.38"/>
+        app:layout_constraintVertical_bias="0.337" />
 
     <TextView
         android:id="@+id/textView51"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:padding="1.5dp"
         android:text="@string/LSP3"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
+        android:textSize="7.5sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/textView50"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.381" />
 
     <TextView
         android:id="@+id/textView52"
@@ -88,8 +88,8 @@
         android:layout_height="wrap_content"
         android:text="@string/LSp4"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
-        android:padding="10dp"
+        android:textSize="7.5sp"
+        android:padding="1.2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -103,9 +103,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintVertical_bias="0.236" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

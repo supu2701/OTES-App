@@ -133,6 +133,9 @@
     <string name="police_station">POLICE STATION</string>
     <string name="hospitals">HOSPITALS</string>
     <string name="nearby_police_station">NEARBY POLICE STATION</string>
+    <string name="LSp2">Stay inside Take cover under a desk, table, or other piece of sturdy furniture</string>
+    <string name="LSP3">If outdoors: Try to  run to the nearest high ground in a direction away from the path of landslide</string>
+    <string name="LSp4">Be especially alert when driving— watch for collapsed pavement, mud, fallen rocks and other indications of possible debris flow</string>
 
 
 </resources>
