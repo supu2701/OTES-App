@@ -13,17 +13,18 @@
         android:id="@+id/imageView13"
         android:layout_width="145dp"
         android:layout_height="145dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        app:srcCompat="@drawable/logoapp"/>
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/logoapp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView13"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -60,15 +61,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_weight="1"
             android:gravity="center">
 
             <Button
@@ -77,16 +78,16 @@
                 android:layout_height="35dp"
                 android:background="@android:color/background_light"
                 android:text="@string/tv_sendalert"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_weight="1"
             android:gravity="center">
 
             <Button
@@ -106,8 +107,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout2"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -191,7 +192,7 @@
         android:layout_height="57dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/rounded_button"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_emergency"
