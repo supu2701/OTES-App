@@ -32,7 +32,7 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/alertIcon"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/mask_group_1alertmsg" />
@@ -46,7 +46,7 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView14"
+                android:id="@+id/nearbyIcon"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/group_44" />
@@ -116,7 +116,7 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView15"
+                android:id="@+id/firstaidIcon"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/mask_group_6" />
@@ -130,7 +130,7 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView16"
+                android:id="@+id/precautionaryIcon"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/mask_group_9" />
