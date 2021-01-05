@@ -11,19 +11,20 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        app:srcCompat="@drawable/logoapp"/>
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/logoapp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView13"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -33,8 +34,8 @@
 
             <ImageView
                 android:id="@+id/alertIcon"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 app:srcCompat="@drawable/mask_group_1alertmsg" />
 
         </LinearLayout>
@@ -47,8 +48,8 @@
 
             <ImageView
                 android:id="@+id/nearbyIcon"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 app:srcCompat="@drawable/group_44" />
 
         </LinearLayout>
@@ -60,38 +61,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_weight="1"
             android:gravity="center">
 
             <Button
                 android:id="@+id/alert"
-                android:layout_width="193dp"
+                android:layout_width="170dp"
                 android:layout_height="35dp"
                 android:background="@android:color/background_light"
                 android:text="@string/tv_sendalert"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_weight="1"
             android:gravity="center">
 
             <Button
                 android:id="@+id/nearby"
-                android:layout_width="193dp"
+                android:layout_width="170dp"
                 android:layout_height="35dp"
                 android:background="@android:color/background_light"
                 android:text="@string/tv_finding"
@@ -106,8 +107,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout2"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -117,8 +118,8 @@
 
             <ImageView
                 android:id="@+id/firstaidIcon"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 app:srcCompat="@drawable/mask_group_6" />
 
         </LinearLayout>
@@ -131,8 +132,8 @@
 
             <ImageView
                 android:id="@+id/precautionaryIcon"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 app:srcCompat="@drawable/mask_group_9" />
 
         </LinearLayout>
@@ -144,38 +145,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/linearLayout3"
-        android:orientation="horizontal"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_weight="1"
             android:gravity="center">
 
             <Button
                 android:id="@+id/firstaid"
-                android:layout_width="193dp"
+                android:layout_width="170dp"
                 android:layout_height="35dp"
                 android:background="@android:color/background_light"
                 android:text="@string/tv_firstaidAAAA"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:layout_weight="1"
             android:gravity="center">
 
             <Button
                 android:id="@+id/precautionary"
-                android:layout_width="193dp"
+                android:layout_width="170dp"
                 android:layout_height="35dp"
                 android:background="@android:color/background_light"
                 android:text="@string/tv_precautionary"
@@ -188,10 +189,10 @@
     <Button
         android:id="@+id/emergency"
         android:layout_width="190dp"
-        android:layout_height="57dp"
+        android:layout_height="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/rounded_button"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_emergency"

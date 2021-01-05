@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,6 +50,42 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity2.this,disaster3.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView i1,i2,i3,i4;
+        i1=findViewById(R.id.firstaidIcon);
+        i2=findViewById(R.id.precautionaryIcon);
+        i3=findViewById(R.id.nearbyIcon);
+        i4=findViewById(R.id.alertIcon);
+        i3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity2.this,NearbyServices.class);
+                startActivity(intent);
+            }
+        });
+
+        i4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity2.this,socialPlatform.class);
+                startActivity(intent);
+
+            }
+        });
+        i1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity2.this,FirstAid.class);
+                startActivity(intent);
+            }
+        });
+        i2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity2.this,disaster3.class);
