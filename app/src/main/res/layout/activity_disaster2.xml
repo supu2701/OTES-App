@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    tools:context=".disaster2">
+    tools:context=".disaster2"
+    android:backgroundTint="#d4f1f9">
 
     <TextView
         android:id="@+id/textView32"
@@ -22,7 +23,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.041" />
 
     <TextView
         android:id="@+id/textView33"
@@ -32,66 +33,70 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintVertical_bias="0.097" />
 
     <TextView
         android:id="@+id/textView34"
-        android:layout_width="377dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="@string/tv_pointflood_1"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="377dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="@string/tv_pointflood_4"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="377dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="@string/tv_pointflood_2"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65999997" />
+        app:layout_constraintVertical_bias="0.668" />
 
     <TextView
         android:id="@+id/textView36"
-        android:layout_width="377dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:text="@string/tv_pointflodd_3"
         android:textColor="@android:color/background_dark"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79" />
+        app:layout_constraintVertical_bias="0.834" />
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view1"

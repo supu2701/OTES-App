@@ -7,35 +7,35 @@
     android:background="@android:color/background_light"
     tools:context=".disaster1"
     android:backgroundTint="#9b7653">
+
     <TextView
         android:id="@+id/textView26"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="177dp"
+        android:layout_height="18dp"
         android:background="@color/design_default_color_primary"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_earthquake"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
-        android:textSize="20sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.011" />
 
     <TextView
         android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
         android:text="@string/tv_pre1"
-        android:textSize="18sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
         app:layout_constraintEnd_toStartOf="@+id/guideline76"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline73"
@@ -72,82 +72,97 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:includeFontPadding="true"
-        android:paddingLeft="10dp"
+        android:paddingLeft="0.5dp"
         android:paddingTop="2dp"
-        android:paddingRight="10dp"
+        android:paddingRight="0.5dp"
         android:text="@string/tv_pointearthquake_1"
         android:textColor="@android:color/background_dark"
-        android:textSize="19sp"
+        android:textSize="9sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
         app:layout_constraintEnd_toStartOf="@+id/guideline76"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.685"
+        tools:ignore="SmallSp" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:includeFontPadding="true"
-        android:paddingLeft="10dp"
+        android:paddingLeft="0.5dp"
         android:paddingTop="2dp"
-        android:paddingRight="10dp"
+        android:paddingRight="0.5dp"
         android:text="@string/tv_pointearthquake_3"
         android:textColor="@android:color/background_dark"
-        android:textSize="19sp"
+        android:textSize="9sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline76"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.882" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:includeFontPadding="true"
-        android:paddingLeft="10dp"
+        android:paddingLeft="0.5dp"
         android:paddingTop="2dp"
-        android:paddingRight="10dp"
+        android:paddingRight="0.5dp"
         android:text="@string/tv_pointearthquake_2"
         android:textColor="@android:color/background_dark"
-        android:textSize="19sp"
+        android:textSize="9sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
         app:layout_constraintEnd_toStartOf="@+id/guideline76"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline75"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.781" />
+        app:layout_constraintVertical_bias="0.438" />
 
     <TextView
         android:id="@+id/textView31"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:includeFontPadding="true"
-        android:paddingLeft="10dp"
+        android:paddingLeft="0.5dp"
         android:paddingTop="2dp"
-        android:paddingRight="10dp"
+        android:paddingRight="0.5dp"
         android:text="@string/tv_pointearthquake_4"
         android:textColor="@android:color/background_dark"
-        android:textSize="19sp"
+        android:textSize="9sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline75"
+        app:layout_constraintTop_toTopOf="@+id/guideline74"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="41dp"
+        android:layout_height="9dp"
+        android:text="@string/tv_videolink"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/guideline75"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.151" />
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="185dp"
+        android:layout_height="47dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline74"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:layout_constraintVertical_bias="0.29000002" />
+        app:layout_constraintVertical_bias="0.188" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
