@@ -39,6 +39,8 @@ GitHub is a United States-based global company that provides hosting for softwar
 ###### ✔Basics of Java
 ###### ✔Basics of development using Android Studio [Android Studio Documentation](https://developer.android.com/docs)
 
+<img src="https://github.com/supu2701/Open-CV-Projects/blob/main/KWoC.jpeg">
+
 ## 💥⭕How to contribute?
 ### 1. 👇🏻Star and Fork this Repository
 ###### You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
