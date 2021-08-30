@@ -7,11 +7,7 @@ Link to the Demonstration video of functioning of OTES: https://www.youtube.com/
 ## ▶ This Open Source Project was Selected for Kharagpur Winter of Code by IIT Kharagpur with me being the Mentor and Project Maintainer of OTES.
 <img src="https://github.com/supu2701/OTES-App/blob/master/OTES.jfif">
 
-## ❤️ Project Mentored by
 
-|                                     <a href="https://github.com/supu2701"><img src="profile_photo.jpg" width=150px height=150px /></a>                                      |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|
 
 ## ⭕⭕Problem Statement-
 Emergencies and disasters impact population's health. Public health plays a critical role in working with health and non-health sectors responsible for preparing for and responding to emergencies. In emergencies, large number of people may require medical attention. Health care systems may be over-stretched, and public order may be threatened. Hence, we want software solution such that social media can be used in public health emeergency response. Such tool/page/plugin should have the below capabilities.
